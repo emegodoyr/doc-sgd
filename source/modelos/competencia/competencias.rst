@@ -9,7 +9,7 @@ Modelo relacional para el modulo.
 referencia del modelo:
 
 .. image:: model-competencias.png
-   :height: 350px
+   :height: 750px
    :scale: 50 %
    :alt: modelo relacional competencias
    :align: left
