@@ -29,7 +29,8 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-
+from sphinx.highlighting import lexers
+from pygments.lexers.web import PhpLexer
 import sys, os
 extensions = [
     'sphinx.ext.imgmath',
@@ -145,6 +146,10 @@ html_theme_options = {
     'display_version': False
 }
 
+
+lexers["php"] = PhpLexer(startinline=True, linenos=1)
+lexers["php-annotations"] = PhpLexer(startinline=True, linenos=1)
+primary_domain = "php"
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
 

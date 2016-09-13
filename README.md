@@ -15,8 +15,13 @@ _Requerimietos para compilar:_
 
 - Sphinx: ```v1.4.6```
 - Python: ```v2.7```
+- instalar requerimientos*
 
 >_como instalar sphinx en el siguiente [enlace](http://www.sphinx-doc.org/es/stable/install.html)_
+
+si solo cumples con la depencia ```python v2.7```, ejecuta el siguiente comando en tu terminal:
+
+```pip install -r requirements.txt```
 
 una vez cumplidos los requerimientos, debemos abrir un terminal e ir a nuestro proyecto y situarnos 
 en el mismo lugar donde esta el archivo ```Makefile``` (la raiz del proyecto).
@@ -24,6 +29,14 @@ en el mismo lugar donde esta el archivo ```Makefile``` (la raiz del proyecto).
 localizado el archivo desde nuestro terminal debemos ejecutar el siguiente comando:
 
 ```make html```
+
+> si quiere hacer un _watch_ de la documentacion, para no esta ejecutando a cada momento ```make html```
+> ejecuta el siguiente comando
+>
+> ```sphinx-autobuild source build/html```
+>
+> solo podras ejecutar este comando si cumples con todos los requerimientos para compilar
+
 
 si tenemos exito, el sistema automaticamente creara una carpeta llamada ```build```
 

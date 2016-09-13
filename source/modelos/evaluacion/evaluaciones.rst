@@ -7,4 +7,3 @@ Modelo Relacional
 =================
 
 referencia del modelo:
-
