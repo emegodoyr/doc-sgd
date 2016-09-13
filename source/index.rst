@@ -3,20 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-===============================
-Documentación Sistema Gestion de Desempeño (SGD)
-===============================
+.. highlightlang:: rest
 
-Contenido:
+Documentación Sistema Gestion de Desempeño (SGD)
+================================================
 
 .. toctree::
+   :caption: Modelo Competencias
+   :name: modelo-competencias
+   :titlesonly:
    :maxdepth: 4
+   :glob:
 
+   modelos/competencia/*
 
-==================
-Modelos
-==================
+.. toctree::
+   :caption: Modelo Evaluaciones
+   :name: modelo-evaluaciones
+   :titlesonly:
+   :maxdepth: 4
+   :glob:
 
----------
-:ref:`competencias`
----------
+   modelos/evaluacion/*

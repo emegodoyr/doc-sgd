@@ -1,12 +1,12 @@
-.. _competencias:
+.. highlightlang:: rest
 
-============
-Competencias
-============
 
-=================
+.. _modelo-relacional-competencias:
+
+
 Modelo relacional
 =================
+
 
 referencia del modelo:
 
@@ -16,9 +16,13 @@ referencia del modelo:
    :alt: modelo relacional competencias
    :align: center
 
-===================
+
+.. _relaciones-competencias:
+
+
 Tablas y Relaciones
 ===================
+
 
 .. glossary::
 
@@ -38,7 +42,8 @@ Tablas y Relaciones
       * actividadClave 1...n criterioDesempeno
 
 
-=======
+.. _esquema-competencias:
+
 Esquema
 =======
 
@@ -48,7 +53,8 @@ Esquema
    :name: competencias-sql
 
 
-=====================
+.. _recursos-competencias:
+
 Recursos descargables
 =====================
 
