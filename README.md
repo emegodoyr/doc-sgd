@@ -38,13 +38,13 @@ podremos ver la documentacion de forma local accediendo al siguiente enlance:
 
 ```localhost:9000```
 
->_nota: al momento de ejecutar el SimpleHTTPServer, este no queda corriendo en segundo plano, por lo cual no tendremos disponible
-el terminal donde ejecutamos la accion para su uso, se recomienda abrir otro terminal para ejecutar el make_
+>nota: al momento de ejecutar el SimpleHTTPServer, este no queda corriendo en segundo plano, por lo cual no tendremos disponible
+el terminal donde ejecutamos la accion para su uso, se recomienda abrir otro terminal para ejecutar el make.
 
 
-en caso te aplicar cambios a los archivos con extension ```.rst``` y esperemos ver el resultado reflejado en la version web, debemos 
-aplicar el comando ```make html``` y luego refrescar la pagina donde estamos observando la documentacion.
+en caso te aplicar cambios a los archivos con extension ```rst``` y esperemos ver el resultado reflejado en la version web, debemos 
+aplicar el comando ```make html``` y luego refrescar la pagina donde estamos observando la documentacion
 
-para mayor información comunicarse con Moisés Godoy o Andres Santamaria.
+para mayor información comunicarse con Moisés Godoy o Andres Santamaria
 
 
