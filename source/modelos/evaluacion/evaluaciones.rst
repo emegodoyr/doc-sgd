@@ -1,9 +1,6 @@
-.. highlightlang:: rest
-
-
 .. _modelo-relacional-evalucacion:
 
-Modelo Relacional
-=================
+Modelo relacional: evaluaciones
+===============================
 
 referencia del modelo:

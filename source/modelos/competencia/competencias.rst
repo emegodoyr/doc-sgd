@@ -1,11 +1,8 @@
-.. highlightlang:: rest
-
-
 .. _modelo-relacional-competencias:
 
 
-Modelo relacional
-=================
+Modelo relacional: competencias
+===============================
 
 
 referencia del modelo:

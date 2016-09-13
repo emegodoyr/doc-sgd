@@ -160,7 +160,7 @@ html_title = u'SGD | Documentación Estructural'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
-# html_short_title = None
+html_short_title = 'Estructural'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -222,7 +222,7 @@ html_static_path = ['sgdstatic']
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #
-# html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #
@@ -242,7 +242,7 @@ html_static_path = ['sgdstatic']
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr', 'zh'
 #
-# html_search_language = 'en'
+html_search_language = 'es'
 
 # A dictionary with options for the search language support, empty by default.
 # 'ja' uses this config value.
@@ -354,7 +354,7 @@ texinfo_documents = [
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #
-# texinfo_show_urls = 'footnote'
+texinfo_show_urls = 'inline'
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #
