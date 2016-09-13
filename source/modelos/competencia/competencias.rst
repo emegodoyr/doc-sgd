@@ -1,10 +1,12 @@
-.. _modulo-competencias:
+.. _competencias:
 
-Modelo: competencias
---------------------------
+============
+Competencias
+============
 
-Modelo relacional para el modulo.
-
+=================
+Modelo relacional
+=================
 
 referencia del modelo:
 
@@ -12,27 +14,33 @@ referencia del modelo:
    :height: 750px
    :scale: 50 %
    :alt: modelo relacional competencias
-   :align: left
+   :align: center
 
+===================
+Tablas y Relaciones
+===================
 
 .. glossary::
 
    Tablas
       * competencia
       * version
-      * tipo
+      * especializacionCompetencia
       * indicadorConducta
       * actividadClave
       * criterioDesempeno
 
    Relaciones
       * competencia 1...* version
-      * competencia 1...1 tipo
-      * tipo 1...n indicadorConducta
-      * tipo 1...n actividadClave
+      * especializacionCompetencia n...n competencia
+      * especializacionCompetencia n...n indicadorConducta (no mandatorio)
+      * especializacionCompetencia n...n actividadClave (no mandatorio)
       * actividadClave 1...n criterioDesempeno
 
 
+=======
+Esquema
+=======
 
 .. literalinclude:: competencias.sql
    :language: sql
@@ -40,6 +48,9 @@ referencia del modelo:
    :name: competencias-sql
 
 
+=====================
+Recursos descargables
+=====================
 
 Recursos: :download:`PNG <model-competencias.png>` | :download:`SQL <competencias.sql>`
 
