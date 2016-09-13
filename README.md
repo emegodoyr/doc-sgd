@@ -36,7 +36,7 @@ instalado ```python 2.7``` en nuestro sistema, ejecutaremos el siguiente comando
 este comando disponibiliza nuestra documentacion en el puerto 9000 (podemos usar el puerto que mas nos acomode), por lo cual
 podremos ver la documentacion de forma local accediendo al siguiente enlance:
 
-```localhost:9000```
+```http://localhost:9000```
 
 >al momento de ejecutar el SimpleHTTPServer, este no queda corriendo en segundo plano, 
 >por lo cual no tendremos disponible el terminal donde ejecutamos la accion para su uso, se recomienda abrir otro terminal para ejecutar el make
