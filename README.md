@@ -13,13 +13,10 @@ ____________
 
 _Requerimietos para compilar:_
 
-- Sphinx: ```v1.4.6```
 - Python: ```v2.7```
-- instalar requerimientos*
+- Python-pip: ```v7.1.0```
 
->_como instalar sphinx en el siguiente [enlace](http://www.sphinx-doc.org/es/stable/install.html)_
-
-si solo cumples con la depencia ```python v2.7```, ejecuta el siguiente comando en tu terminal:
+si cumples con la dependencias, ejecuta el siguiente comando en tu terminal:
 
 ```pip install -r requirements.txt```
 
