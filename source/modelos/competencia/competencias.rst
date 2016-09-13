@@ -35,6 +35,7 @@ referencia del modelo:
 
 
 .. literalinclude:: competencias.sql
+   :language: sql
    :caption: competencias.sql
    :name: competencias-sql
 
