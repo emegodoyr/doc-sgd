@@ -16,10 +16,10 @@ Documentación Sistema Gestion de Desempeño (SGD)
    modelos/competencia/*
 
 .. toctree::
-   :caption: Evaluaciones
-   :name: modelo-evaluaciones
+   :caption: Procesos Evaluaciones
+   :name: modelo-procesosEvaluaciones
    :titlesonly:
    :maxdepth: 4
    :glob:
 
-   modelos/evaluacion/*
+   modelos/procesoEvaluacion/*
