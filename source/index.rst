@@ -32,3 +32,12 @@ Documentación Sistema Gestion de Desempeño (SGD)
    :glob:
 
    modelos/escala/*
+
+.. toctree::
+   :caption: Ponderaciones
+   :name: modelo-ponderaciones
+   :titlesonly:
+   :maxdepth: 4
+   :glob:
+
+   modelos/ponderacion/*

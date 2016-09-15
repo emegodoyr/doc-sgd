@@ -1,7 +1,7 @@
 .. _modelo-relacional-escala:
 
 Modelo relacional: escalas
-========================================
+==========================
 
 referencia del modelo:
 
