@@ -20,19 +20,19 @@ Tablas y Relaciones
 .. glossary::
 
    Tablas
-      * competencia
-      * version
-      * especializacionCompetencia
-      * indicadorConducta
-      * actividadClave
-      * criterioDesempeno
+      * proceso
+      * periodo
+      * subProceso
+      * extension
+      * proceso_has_subProceso
+      * subProceso_has_extension
+      * periodo_has_extension
 
    Relaciones
-      * competencia 1...* version
-      * especializacionCompetencia n...n competencia
-      * especializacionCompetencia n...n indicadorConducta (no mandatorio)
-      * especializacionCompetencia n...n actividadClave (no mandatorio)
-      * actividadClave 1...n criterioDesempeno
+      * proceso 1...1 periodo
+      * proceso n...n proceso_has_subProceso n...n subProceso
+      * subProceso n...n subProceso_has_extension n...n extension
+      * periodo n...n periodo_has_extension n...n extension
 
 
 .. _esquema-proceso-evaluacion:

@@ -23,3 +23,12 @@ Documentación Sistema Gestion de Desempeño (SGD)
    :glob:
 
    modelos/procesoEvaluacion/*
+
+.. toctree::
+   :caption: Escalas
+   :name: modelo-escalas
+   :titlesonly:
+   :maxdepth: 4
+   :glob:
+
+   modelos/escala/*
