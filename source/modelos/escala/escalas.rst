@@ -23,7 +23,6 @@ Tablas y Relaciones
       * escala
       * escala_has_eslabon
       * eslabon
-      * versionEscala
 
    Relaciones
       * escala 1...n versionEscala

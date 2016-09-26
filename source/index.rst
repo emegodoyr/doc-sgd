@@ -41,3 +41,48 @@ Documentación Sistema Gestion de Desempeño (SGD)
    :glob:
 
    modelos/ponderacion/*
+
+.. toctree::
+   :caption: Metas
+   :name: modelo-metas
+   :titlesonly:
+   :maxdepth: 4
+   :glob:
+
+   modelos/meta/*
+
+.. toctree::
+   :caption: Versiones
+   :name: modelo-versiones
+   :titlesonly:
+   :maxdepth: 4
+   :glob:
+
+   modelos/version/*
+
+.. toctree::
+   :caption: Evalauciones
+   :name: modelo-evaluaciones
+   :titlesonly:
+   :maxdepth: 4
+   :glob:
+
+   modelos/evaluacion/*
+
+.. toctree::
+   :caption: Resultados
+   :name: modelo-resultados
+   :titlesonly:
+   :maxdepth: 4
+   :glob:
+
+   modelos/resultado/*
+
+.. toctree::
+   :caption: Opinantes
+   :name: modelo-opinantes
+   :titlesonly:
+   :maxdepth: 4
+   :glob:
+
+   modelos/opinante/*
